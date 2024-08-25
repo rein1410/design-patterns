@@ -31,10 +31,9 @@ class RxJSSubject {
 }
 
 if (require.main == module) {
-
     const news = new RxJSSubject();
     const tv1 = news.subscribe(v => console.log(`${v} via DenTV`));
     const tv2 = news.subscribe(v => console.log(`${v} via Batcave TV`));
-    news.next("Breaking news:")
-    news.next("The war is over")
+    news.next("Breaking news:");
+    news.next("The war is over");
 }
