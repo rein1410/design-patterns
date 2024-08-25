@@ -1,0 +1,14 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "A collection of popular design pattern examples in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rein1410",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.5.0"
+  }
+}
